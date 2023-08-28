@@ -17,3 +17,6 @@ rm -f ~/.zshrc
 cp ./.zshrc ~
 
 cp ./.p10k.zsh ~
+
+// make history update on every command with no need to exit the current shell
+echo "PROMPT_COMMAND=\"history -a;$PROMPT_COMMAND\"" >> ~/.bashrc
