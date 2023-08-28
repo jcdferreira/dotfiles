@@ -110,5 +110,6 @@ source $ZSH/oh-my-zsh.sh
 unset LESS
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 
+HISTFILE=~/.bash_history
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
