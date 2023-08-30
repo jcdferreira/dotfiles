@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install -y wget zsh tree
+apt-get install -y wget zsh tree nano
 
 chsh -s $(which zsh)
 
