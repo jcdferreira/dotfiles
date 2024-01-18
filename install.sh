@@ -1,5 +1,6 @@
 #!/bin/bash
 
+apt-get update
 apt-get install -y wget zsh tree nano vim
 
 chsh -s $(which zsh)
